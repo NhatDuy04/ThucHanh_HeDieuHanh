@@ -7,7 +7,7 @@ using namespace std;
 struct Process {
     int proc; //số thứ tự của tiến trình 
     int arrivalTime; //thời gian tiến trình được cấp CPU hoặc đưa vào hàng đợi (nếu có tiến trình khác đang thực thi)
-    int burstTime;
+    int burstTime; //thời gian thực thi 
     int startTime; //thời gian khi tiến trình được cấp CPU 
     int completionTime; //thời gian từ lúc tiến trình được cấp CPU đến khi thực thi xong (khác với thời gian hoàn thành)
     int turnaroundTime; //thời gian hoàn thành 
